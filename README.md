@@ -106,4 +106,5 @@ Use Python for processing and Power BI for dashboard creation
 Uncover actionable insights that align with marketing and customer retention goals
 
 
+<img width="1307" height="732" alt="Retail_Analytics_dashboard" src="https://github.com/user-attachments/assets/d375b9b2-144c-4188-9032-9564813f173a" />
 
