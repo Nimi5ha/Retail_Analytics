@@ -26,7 +26,7 @@ Analyze customer purchase behavior and uncover business insights using RFM segme
 
 ---
 
- Key Analyses
+# Key Analyses
 
 Customer Segmentation (RFM)
 
@@ -64,7 +64,7 @@ Marked these transactions for further review to support fraud checks or campaign
 
 ---
 
- Power BI Dashboard Highlights
+# Power BI Dashboard Highlights
 
 KPI Cards: Total Sales, Active Customers, Repeat Rate
 
@@ -82,7 +82,7 @@ Anomalies Table: Flagged transactions for review
 
 ---
 
-Business Insights
+# Business Insights
 
 ₹9.52M in total sales from over 400K customers
 
@@ -96,7 +96,7 @@ High-value anomalies reveal spikes that need attention for fraud or offers
 
 ---
 
- Outcome
+# Outcome
 
 Demonstrated the ability to:
 
