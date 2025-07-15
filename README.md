@@ -1,6 +1,7 @@
-📊 Retail Customer Analytics Dashboard
+# 📊 Retail Customer Analytics Dashboard
 
 Tools: Python, Power BI, Excel
+
 Techniques: RFM Segmentation, Cohort Analysis, Anomaly Detection, Sales Behavior Analysis
 
 
