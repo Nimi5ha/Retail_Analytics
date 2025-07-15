@@ -1,144 +1,110 @@
-#🛍️ Retail Sales Analytics Dashboard
 
-Power BI, Python (Pandas, Seaborn, Matplotlib) | Customer & Revenue Insights | Dec 2010 – Dec 2011
+📊 Retail Customer Analytics Dashboard
+
+Tools: Python, Power BI, Excel
+Techniques: RFM Segmentation, Cohort Analysis, Anomaly Detection, Sales Behavior Analysis
+
+
+---
 
 📌 Objective
 
-To uncover revenue opportunities and customer behavior patterns using retail transaction data from an online store. The project combines Python-based analytics and Power BI dashboarding to enable data-driven decisions on sales, customer retention, and anomalies.
+Analyze customer purchase behavior and uncover business insights using RFM segmentation, cohort retention trends, and anomaly detection. Build an interactive dashboard to support decision-making for sales and marketing strategy.
 
 
 ---
 
-📊 Dashboard Highlights
+ Dataset Overview
 
-Built an interactive Power BI dashboard analyzing 9.52M+ in revenue across 406K+ customers from 38+ countries. Delivered insights on:
+.Based on the UCI Online Retail dataset
 
-📌 Top-performing products & countries
+.400,000 transactions across multiple countries
 
-👥 Customer segmentation using RFM
-
-📈 Monthly sales trends
-
-🕒 Hourly purchase behavior
-
-🌍 Geographic performance
-
-
-> 🔗 The dashboard includes filters for Time, Year, Country, and Customer Segment, enabling deep slice-and-dice analysis.
-
+.Key fields: InvoiceNo, CustomerID, Quantity, UnitPrice, Description, InvoiceDate, Country
 
 
 
 ---
 
-🔍 Key Insights
+ Key Analyses
 
-1. Customer Segmentation (RFM Analysis)
+Customer Segmentation (RFM)
 
-Segmented customers into 4 actionable groups based on Recency, Frequency, and Monetary metrics:
+Assigned Recency, Frequency, Monetary scores to each customer.
 
-Segment	Count	Description
+Segmented users into categories like Champions, Loyal, At Risk, and more.
 
-Champions	1660+	Frequent, high-spending recent buyers
-Potential	950+	New or high-value customers to target more
-Loyal	850+	Consistent repeat buyers
-At Risk	800+	Inactive customers needing reactivation
-
-
-> 📌 This segmentation enabled tailored marketing and loyalty strategies.
-
+Identified 1,600+ high-value customers, helping target revenue-driving segments.
 
 
 
 ---
 
-2. Anomaly Detection
+Cohort Analysis (Retention)
 
-Detected unusual spikes in daily sales using Top 1% transaction threshold:
+Grouped customers by their first purchase month to create acquisition cohorts.
 
-Highest spikes on:
+Tracked retention behavior across multiple months post-acquisition.
 
-📅 2011-01-18 → $168,465
-
-📅 2011-12-09 → $333,516
-
-
-High-value orders (top 1%) included invoices over $100K+
-
-
-> 🧠 These anomalies help identify bulk purchases, seasonal spikes, or fraud potential.
-
+Identified a retention drop-off after Month 3, highlighting a need for re-engagement strategy.
 
 
 
 ---
 
-3. Cohort Analysis
+ Anomaly Detection
 
-Analyzed retention behavior of monthly customer cohorts:
+Flagged the top 1% highest-value transactions using TotalPrice thresholds.
 
-Initial retention drops sharply after Month 1
+Focused on extreme purchase spikes that indicated bulk buying, unusual behavior, or potential pricing issues.
 
-Strongest retention in Dec 2010 cohort (up to 6 months)
-
-Most cohorts drop below 20% retention after 3 months
-
-
-
-
-> 📈 This analysis highlights the need for stronger post-purchase engagement campaigns.
-
+Marked these transactions for further review to support fraud checks or campaign audits.
 
 
 
 ---
 
-📌 Tools & Techniques Used
+ Power BI Dashboard Highlights
 
-Area	Tools / Methods
+KPI Cards: Total Sales, Active Customers, Repeat Rate
 
-Data Cleaning	Pandas, Power Query
-Customer Segments	RFM Segmentation using Quantiles
-Anomaly Detection	Top 1% Thresholding, Daily Sales Patterns
-Retention Analysis	Cohort Heatmaps with Seaborn
-Visualization	Power BI (KPIs, Line Graphs, Maps, Matrix)
+Segment Distribution: RFM segment breakdown
 
+Sales Trends: Monthly revenue & product performance
 
+Top Performers: Products and customers by sales
 
----
+Cohort Heatmap: Retention behavior over 6 months
 
-🧠 Business Impact
-
-Helped stakeholders understand who the most valuable customers are
-
-Identified drop-off points in customer lifecycle
-
-Revealed seasonal buying patterns and sales spikes
-
-Built interactive tools for filtering insights by region, time, and behavior
+Anomalies Table: Flagged transactions for review
 
 
 
 ---
 
-📁 Folder Structure
+Business Insights
 
-Retail_Analytics_Project/
-│
-├── data/
-│   ├── OnlineRetail.csv
-│   └── Retail_Analytics_CleanData.csv
-│
-├── notebooks/
-│   └── Retail_Analysis.ipynb
-│
-├── dashboard/
-│   └── Retail_Sales_PowerBI.pbix
-│
-├── images/
-│   ├── cohort_heatmap.png
-│   ├── anomaly_spike_chart.png
-│   └── dashboard_screenshot.png
-│
-└── README.md
+₹9.52M in total sales from over 400K customers
+
+Champions and Loyal Customers generate highest revenue
+
+Retention drops after 3 months — potential for loyalty campaigns
+
+High-value anomalies reveal spikes that need attention for fraud or offers
+
+
+
+---
+
+ Outcome
+
+Demonstrated the ability to:
+
+Apply segmentation and retention analysis to real-world business data
+
+Use Python for processing and Power BI for dashboard creation
+
+Uncover actionable insights that align with marketing and customer retention goals
+
+
 
