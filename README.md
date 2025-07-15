@@ -16,11 +16,11 @@ Analyze customer purchase behavior and uncover business insights using RFM segme
 
  Dataset Overview
 
-Based on the UCI Online Retail dataset
+1. Based on the UCI Online Retail dataset
 
-400,000 transactions across multiple countries
+2. 400,000 transactions across multiple countries
 
-Key fields: InvoiceNo, CustomerID, Quantity, UnitPrice, Description, InvoiceDate, Country
+3. Key fields: InvoiceNo, CustomerID, Quantity, UnitPrice, Description, InvoiceDate, Country
 
 
 
@@ -28,7 +28,7 @@ Key fields: InvoiceNo, CustomerID, Quantity, UnitPrice, Description, InvoiceDate
 
 # Key Analyses
 
-Customer Segmentation (RFM)
+🟠Customer Segmentation (RFM)
 
 Assigned Recency, Frequency, Monetary scores to each customer.
 
@@ -40,7 +40,7 @@ Identified 1,600+ high-value customers, helping target revenue-driving segments.
 
 ---
 
-Cohort Analysis (Retention)
+🟠Cohort Analysis (Retention)
 
 Grouped customers by their first purchase month to create acquisition cohorts.
 
@@ -52,7 +52,7 @@ Identified a retention drop-off after Month 3, highlighting a need for re-engage
 
 ---
 
- Anomaly Detection
+🟠 Anomaly Detection
 
 Flagged the top 1% highest-value transactions using TotalPrice thresholds.
 
@@ -66,17 +66,17 @@ Marked these transactions for further review to support fraud checks or campaign
 
 # Power BI Dashboard Highlights
 
-KPI Cards: Total Sales, Active Customers, Repeat Rate
+1. KPI Cards: Total Sales, Active Customers, Repeat Rate
 
-Segment Distribution: RFM segment breakdown
+2. Segment Distribution: RFM segment breakdown
 
-Sales Trends: Monthly revenue & product performance
+3. Sales Trends: Monthly revenue & product performance
 
-Top Performers: Products and customers by sales
+4. Top Performers: Products and customers by sales
 
-Cohort Heatmap: Retention behavior over 6 months
+5. Cohort Heatmap: Retention behavior over 6 months
 
-Anomalies Table: Flagged transactions for review
+6. Anomalies Table: Flagged transactions for review
 
 
 
