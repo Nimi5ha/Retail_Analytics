@@ -16,11 +16,11 @@ Analyze customer purchase behavior and uncover business insights using RFM segme
 
  Dataset Overview
 
-.Based on the UCI Online Retail dataset
+Based on the UCI Online Retail dataset
 
-.400,000 transactions across multiple countries
+400,000 transactions across multiple countries
 
-.Key fields: InvoiceNo, CustomerID, Quantity, UnitPrice, Description, InvoiceDate, Country
+Key fields: InvoiceNo, CustomerID, Quantity, UnitPrice, Description, InvoiceDate, Country
 
 
 
